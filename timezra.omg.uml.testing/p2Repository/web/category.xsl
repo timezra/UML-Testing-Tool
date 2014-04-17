@@ -5,11 +5,11 @@
 <xsl:for-each select="site">
 	<html>
 	<head>
-	<title>timezra.omg.uml.testing.resources.update-site</title>
-	<style>@import url("web/site.css");</style>
+	<title>timezra.omg.uml.testing.resources.p2Repository</title>
+	<style>@import url("web/category.css");</style>
 	</head>
 	<body>
-	<h1 class="title">timezra.omg.uml.testing.resources.update-site</h1>
+	<h1 class="title">timezra.omg.uml.testing.resources.p2Repository</h1>
 	<p class="bodyText"><xsl:value-of select="description"/></p>
 	<table width="100%" border="0" cellspacing="1" cellpadding="2">
 	<xsl:for-each select="category-def">

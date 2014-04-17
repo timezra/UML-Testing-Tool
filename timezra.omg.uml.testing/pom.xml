@@ -95,6 +95,6 @@
   <modules>
     <module>plugins</module>
     <module>features</module>
-    <module>update-site</module>
+    <module>p2Repository</module>
   </modules>
 </project>

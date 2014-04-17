@@ -18,8 +18,8 @@
    </license>
 
    <url>
-      <update label="%updateSiteName" url="https://timezra.github.com/UML-Testing-Tool"/>
-      <discovery label="%updateSiteName" url="https://timezra.github.com/UML-Testing-Tool"/>
+      <update label="%p2RepositoryName" url="https://timezra.github.com/UML-Testing-Tool"/>
+      <discovery label="%p2RepositoryName" url="https://timezra.github.com/UML-Testing-Tool"/>
    </url>
    
    <requires>
