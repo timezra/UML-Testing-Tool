@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="UML Testing P2 Repository" url="https://timezra.github.com/UML-Testing-Tool">
+      UML Testing P2 Repository
+   </description>
+   <feature url="features/timezra.uml.testing.feature_1.0.0.qualifier.jar" id="timezra.uml.testing.feature" version="1.0.0.qualifier">
+      <category name="timezra.uml.testing_category"/>
+   </feature>
+   <feature url="features/timezra.uml.testing.source.feature_1.0.0.qualifier.jar" id="timezra.uml.testing.source.feature" version="1.0.0.qualifier">
+      <category name="timezra.uml.testing_category"/>
+   </feature>
+   <category-def name="timezra.uml.testing_category" label="UML Testing">
+      <description>
+         UML Testing
+      </description>
+   </category-def>
+</site>

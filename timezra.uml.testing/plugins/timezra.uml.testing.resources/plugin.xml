@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://UTP/"
+            target="platform:/plugin/timezra.uml.testing.resources/src/main/resources/uml/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="http://www.omg.org/spec/UTP/20120801/utp_1.2.xmi"
+            target="pathmap://UTP/utp_1.2.xmi">
+      </mapping>
+      <mapping
+            source="http://www.omg.org/spec/UTP/20120801/utptypes_1.2.xmi"
+            target="pathmap://UTP/utptypes_1.2.xmi">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.dynamic_package">
+      <profile
+            location="pathmap://UTP/utp_1.2.xmi#_iCl4wOVMEeG84fBOY39c0g"
+            uri="http://www.omg.org/spec/UTP/20120801/utp_1.2.xmi">
+      </profile>
+   </extension>
+
+</plugin>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns:uml="http://www.omg.org/spec/UML/20110701">
+  <uml:Model xmi:id="_nGjLwOVVEeG84fBOY39c0g" name="utptypes">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_nGjLweVVEeG84fBOY39c0g" importingNamespace="_nGjLwOVVEeG84fBOY39c0g">
+      <importedPackage xmi:type="uml:Model" href="http://www.omg.org/spec/UML/20110701/PrimitiveTypes.xmi#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_ntpoAOVVEeG84fBOY39c0g" name="Verdict">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_w-6YAOVVEeG84fBOY39c0g" name="none" enumeration="_ntpoAOVVEeG84fBOY39c0g"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_yANc8OVVEeG84fBOY39c0g" name="pass" enumeration="_ntpoAOVVEeG84fBOY39c0g"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_ynk-8OVVEeG84fBOY39c0g" name="inconclusive" enumeration="_ntpoAOVVEeG84fBOY39c0g"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_0RKy8OVVEeG84fBOY39c0g" name="fail" enumeration="_ntpoAOVVEeG84fBOY39c0g"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_02K9cOVVEeG84fBOY39c0g" name="error" enumeration="_ntpoAOVVEeG84fBOY39c0g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_rCbLcOVVEeG84fBOY39c0g" name="Arbiter">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_GhAAcOVWEeG84fBOY39c0g" name="getVerdict" interface="_rCbLcOVVEeG84fBOY39c0g">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JV04gOVWEeG84fBOY39c0g" name="verdict" type="_ntpoAOVVEeG84fBOY39c0g" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_J0UyYOVWEeG84fBOY39c0g" name="setVerdict" interface="_rCbLcOVVEeG84fBOY39c0g">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_LiTXIOVWEeG84fBOY39c0g" name="v" type="_ntpoAOVVEeG84fBOY39c0g"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_rvwLgOVVEeG84fBOY39c0g" name="Timer">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_M05AYOVWEeG84fBOY39c0g" name="isRunning" isReadOnly="true" interface="_rvwLgOVVEeG84fBOY39c0g">
+        <type xmi:type="uml:PrimitiveType" href="http://www.omg.org/spec/UML/20110701/PrimitiveTypes.xmi#Boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ULFx4OVWEeG84fBOY39c0g" name="start" interface="_rvwLgOVVEeG84fBOY39c0g">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_V_3iMOVWEeG84fBOY39c0g" name="expire" type="_skeNAOVVEeG84fBOY39c0g"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_W01bUOVWEeG84fBOY39c0g" name="start2" interface="_rvwLgOVVEeG84fBOY39c0g">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_YS1DUOVWEeG84fBOY39c0g" name="expire" type="_tnmd8OVVEeG84fBOY39c0g"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_YtPHYOVWEeG84fBOY39c0g" name="stop" interface="_rvwLgOVVEeG84fBOY39c0g"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ZflKUOVWEeG84fBOY39c0g" name="read" interface="_rvwLgOVVEeG84fBOY39c0g">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_bIwHkOVWEeG84fBOY39c0g" type="_tnmd8OVVEeG84fBOY39c0g" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_skeNAOVVEeG84fBOY39c0g" name="Timepoint"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_tnmd8OVVEeG84fBOY39c0g" name="Duration"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_uz-KcOVVEeG84fBOY39c0g" name="Timezone"/>
+  </uml:Model>
+</xmi:XMI>
