@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: timezra.uml.testing.papyrus.palettes;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: %providerName
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Activator: timezra.uml.testing.papyrus.palettes.Activator$Implementation
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.common;bundle-version="[2.9.0,3.0.0)",
+ org.eclipse.papyrus.uml.extensionpoints;bundle-version="[0.10.2,1.0.0)",
+ org.eclipse.papyrus.uml.diagram.common;bundle-version="[0.10.2,1.0.0)",
+ timezra.uml.testing.resources;bundle-version="[1.0.0,1.1.0)"
+Bundle-Localization: plugin
+Bundle-ActivationPolicy: lazy
+Export-Package: timezra.uml.testing.papyrus.palettes

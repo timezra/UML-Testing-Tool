@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="UML Testing Profile"
+            iconpath="icons/full/obj16/utp.png"
+            name="UTP"
+            path="http://www.omg.org/spec/UTP/20120801/utp_1.2.xmi"
+            provider="omg.org">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
+      <library
+            description="UML Testing Profile Types"
+            iconpath="icons/full/obj16/utptypes.png"
+            name="UTP Types"
+            path="http://www.omg.org/spec/UTP/20120801/utptypes_1.2.xmi"
+            provider="omg.org">
+      </library>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.diagram.common.paletteDefinition">
+      <paletteDefinition
+            ID="timezra.uml.testing.papyrus.palettes.UTP_clazz"
+            class="org.eclipse.papyrus.uml.diagram.common.service.PluginPaletteProvider"
+            icon="icons/full/obj16/utp_palette.png"
+            name="UTP Class Diagram Elements"
+            path="palettes/UTP.clazz.palette.xml">
+         <Priority
+               name="Medium">
+         </Priority>
+         <editor
+               id="org.eclipse.papyrus.uml.diagram.clazz">
+         </editor>
+      </paletteDefinition>
+   </extension>
+
+</plugin>

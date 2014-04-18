@@ -23,7 +23,7 @@
          point="org.eclipse.uml2.uml.dynamic_package">
       <profile
             location="pathmap://UTP/utp_1.2.xmi#_iCl4wOVMEeG84fBOY39c0g"
-            uri="http://www.omg.org/spec/UTP/20120801/utp_1.2.xmi">
+            uri="http://www.omg.org/spec/UTP/20120801/utp_1.2">
       </profile>
    </extension>
 

@@ -8,10 +8,10 @@
    <description>
       %description
    </description>
-   
+
    <copyright>
       %copyright
-   </copyright>   
+   </copyright>
 
    <license url="%licenseURL">
       %license
@@ -21,24 +21,10 @@
       <update label="%p2RepositoryName" url="https://timezra.github.com/UML-Testing-Tool"/>
       <discovery label="%p2RepositoryName" url="https://timezra.github.com/UML-Testing-Tool"/>
    </url>
-   
-   <requires>
-   </requires>
 
-   <plugin
-         id="timezra.uml.testing.resources"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="timezra.uml.testing.resources.tests"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
+   <includes
+         id="timezra.uml.testing.feature"
+         version="0.0.0"/>
 
    <plugin
          id="timezra.uml.testing.resources.source"
@@ -49,6 +35,21 @@
 
    <plugin
          id="timezra.uml.testing.resources.tests.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="timezra.uml.testing.papyrus.palettes.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="timezra.uml.testing.papyrus.palettes.tests.source"
          download-size="0"
          install-size="0"
          version="0.0.0"

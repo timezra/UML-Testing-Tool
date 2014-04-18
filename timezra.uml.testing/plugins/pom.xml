@@ -51,5 +51,7 @@
   <modules>
     <module>timezra.uml.testing.resources</module>
     <module>timezra.uml.testing.resources.tests</module>
+    <module>timezra.uml.testing.papyrus.palettes</module>
+    <module>timezra.uml.testing.papyrus.palettes.tests</module>
   </modules>
 </project>

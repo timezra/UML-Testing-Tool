@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<paletteDefinition>
+    <content>
+        <drawer iconpath="/icons/drawer.gif" id="UTP_Drawer" name="UTP">
+            <aspectTool description="Create a Test Context (Class)"
+                iconpath="platform:/plugin/timezra.uml.testing.papyrus.palettes/icons/full/obj16/test_context_class.png"
+                id="clazz.tool.class_UTP_TEST_CONTEXT" name="Test Context (Class)" refToolId="clazz.tool.class">
+                <postAction id="org.eclipse.papyrus.applystereotypeactionprovider">
+                    <stereotypesToApply>
+                        <stereotype stereotypeName="utp::TestContext" />
+                    </stereotypesToApply>
+                </postAction>
+            </aspectTool>
+        </drawer>
+    </content>
+</paletteDefinition>
