@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>timezra.uml.testing.plugins</artifactId>
 	<packaging>pom</packaging>
@@ -13,8 +14,9 @@
 	</parent>
 
 	<properties>
-		<maven.compiler.source>1.7</maven.compiler.source>
-		<maven.compiler.target>1.7</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<jdt.core.version>3.10.0.v20140408-1345</jdt.core.version>
 	</properties>
 
 	<profiles>
@@ -46,12 +48,38 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-compiler-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<dependencies>
+					<dependency>
+						<groupId>org.eclipse.jdt</groupId>
+						<artifactId>org.eclipse.jdt.core</artifactId>
+						<version>${jdt.core.version}</version>
+					</dependency>
+				</dependencies>
+			</plugin>
 		</plugins>
 	</build>
-  <modules>
-    <module>timezra.uml.testing.resources</module>
-    <module>timezra.uml.testing.resources.tests</module>
-    <module>timezra.uml.testing.papyrus.palettes</module>
-    <module>timezra.uml.testing.papyrus.palettes.tests</module>
-  </modules>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>eclipse-jdt</id>
+			<url>https://repo.eclipse.org/content/repositories/eclipse-staging/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<modules>
+		<module>timezra.uml.testing.resources</module>
+		<module>timezra.uml.testing.resources.tests</module>
+		<module>timezra.uml.testing.papyrus.palettes</module>
+		<module>timezra.uml.testing.papyrus.palettes.tests</module>
+	</modules>
 </project>

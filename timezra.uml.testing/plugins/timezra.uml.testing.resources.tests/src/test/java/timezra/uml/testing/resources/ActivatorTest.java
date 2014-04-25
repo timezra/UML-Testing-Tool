@@ -7,7 +7,7 @@ import org.junit.Test;
 public class ActivatorTest {
 
 	@Test
-	public void thePluginShouldBeActivated() {
+	public void can_activate_the_plugin() {
 		assertNotNull(Activator.getPlugin());
 	}
 }

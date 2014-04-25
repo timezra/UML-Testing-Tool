@@ -4,7 +4,7 @@ Bundle-Name: %pluginName
 Bundle-SymbolicName: timezra.uml.testing.papyrus.palettes;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: %providerName
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Activator: timezra.uml.testing.papyrus.palettes.Activator$Implementation
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.common;bundle-version="[2.9.0,3.0.0)",

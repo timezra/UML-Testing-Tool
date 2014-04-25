@@ -5,6 +5,6 @@ Bundle-SymbolicName: timezra.uml.testing.resources.tests;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: %providerName
 Fragment-Host: timezra.uml.testing.resources;bundle-version="1.0.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.junit;bundle-version="[4.11.0,5.0.0)"
 Bundle-Localization: plugin
