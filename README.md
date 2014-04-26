@@ -1,4 +1,7 @@
-README
+timezra.uml.testing
+========================================================================
+
+The UML Testing Tool is a graphical workbench for building models based on the UML Testing Profile (http://utp.omg.org/) based on the Eclipse Papyrus platform (http://eclipse.org/papyrus/).
 
 This project is based on this maven archetype: http://github.com/timezra/tycho_new_plugin_project
 
