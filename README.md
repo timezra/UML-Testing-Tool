@@ -1,4 +1,4 @@
-timezra.uml.testing
+UML-Testing-Tool [![Build Status](https://travis-ci.org/timezra/UML-Testing-Tool.png)](https://travis-ci.org/timezra/UML-Testing-Tool)
 ========================================================================
 
 The UML Testing Tool is a graphical workbench for building models based on the UML Testing Profile (http://utp.omg.org/) based on the Eclipse Papyrus platform (http://eclipse.org/papyrus/).
@@ -6,9 +6,11 @@ The UML Testing Tool is a graphical workbench for building models based on the U
 This project is based on this maven archetype: http://github.com/timezra/tycho_new_plugin_project
 
 This project can be built from the root pom with standard Maven commands, e.g.,
+
     $> mvn clean verify
 
 If you would like to build a p2 repository for this project with signed jars use the following commands (the first to generate a self-signed cert with a 1-year validity if you do not have a cert from a CA; the second to activate the maven profile to sign the jars that are packaged in the p2 repository):
+
     $> keytool -genkey -alias _keystore_alias_ -keystore /path/to/keystore -validity 365
     $> mvn -Psign -Djarsigner.keystore=/path/to/keystore -Djarsigner.storepass=_keystore_password_ -Djarsigner.alias=_keystore_alias_ clean package integration-test
 
