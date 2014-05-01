@@ -7,7 +7,7 @@
             description="UML Testing Profile"
             iconpath="icons/full/obj16/utp.png"
             name="UTP"
-            path="http://www.omg.org/spec/UTP/20120801/utp_1.2.xmi"
+            path="http://www.omg.org/spec/UTP/20120801/utp_1.2.xmi#_iCl4wOVMEeG84fBOY39c0g"
             provider="omg.org">
       </profile>
    </extension>
